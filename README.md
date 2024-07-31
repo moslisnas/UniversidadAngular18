@@ -14,8 +14,8 @@ Second phase: Now this project contains previous content lessons of the course a
 
 ## calculadora-app
 
-This project contains 3 exercise lessons of the course which review the concepts of the First phase of mi-primera-app lessons.
+First phase: This project contains 3 exercise lessons of the course which review the concepts of the First phase of mi-primera-app lessons.
 
 ## listado-personas
 
-This project contains 5 lessons of the course with basic concepts of the directive ngFor (@for) of an Angular project. 
+This project contains 5 lessons of the course with basic concepts of the directive ngFor (@for) of an Angular project and component communication with @Input and @Output. 
