@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Persona } from './persona.model';
 import { CommonModule } from '@angular/common';
 import { PersonaComponent } from "./persona/persona.component";
 import { FormularioComponent } from "./formulario/formulario.component";
+import { PersonasService } from './personas.service';
 
 @Component({
   selector: 'app-root',
@@ -12,15 +13,13 @@ import { FormularioComponent } from "./formulario/formulario.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   titulo = 'Listado de Personas';
-  personas:Persona[] = [
-    new Persona("Juan", "Perez"),
-    new Persona("Laura", "Juarez"),
-    new Persona("Karla", "Lara")
-  ];
+  personas:Persona[] = [];
 
-  personaAgregada(persona:Persona){
-    this.personas.push(persona);
+  constructor(private personasService: PersonasService){}
+
+  ngOnInit(): void {
+    this.personas = this.personasService.personas;
   }
 }
