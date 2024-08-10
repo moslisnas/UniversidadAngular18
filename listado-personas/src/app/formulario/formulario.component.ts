@@ -1,7 +1,6 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { Persona } from '../persona.model';
 import { FormsModule } from '@angular/forms';
-import { LoggingService } from '../LoggingService.service';
 import { PersonasService } from '../personas.service';
 
 @Component({
@@ -12,10 +11,8 @@ import { PersonasService } from '../personas.service';
   styleUrl: './formulario.component.css'
 })
 export class FormularioComponent {
-  //nombreInput:string = "";
-  //apellidoInput:string = "";
-  @ViewChild("nombreInput") nombreInput:ElementRef;
-  @ViewChild("apellidoInput") apellidoInput:ElementRef;
+  nombreInput:string = "";
+  apellidoInput:string = "";
   
   constructor(private personasService:PersonasService){
     this.personasService.saludar.subscribe(
@@ -24,7 +21,7 @@ export class FormularioComponent {
   }
 
   agregarPersona() {
-    let persona1 = new Persona(this.nombreInput.nativeElement.value, this.apellidoInput.nativeElement.value);
+    let persona1 = new Persona(this.nombreInput, this.apellidoInput);
     this.personasService.agregarPersona(persona1);
   }
 }
