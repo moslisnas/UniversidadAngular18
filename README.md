@@ -27,3 +27,6 @@ Second phase: this phase add 2 lessons with the concept of local reference (#ele
 Third phase: this phase add 4 lessons with the concept of services and communication between components using services.
 
 Fourth phase: this phase add 1 lesson with custom CSS
+
+## presupuesto-app
+First phase: this project contains several exercise lessons of the course which review the previous concepts: 
