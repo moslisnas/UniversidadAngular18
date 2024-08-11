@@ -1,25 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Persona } from './persona.model';
 import { CommonModule } from '@angular/common';
-import { PersonaComponent } from "./persona/persona.component";
-import { FormularioComponent } from "./formulario/formulario.component";
-import { PersonasService } from './personas.service';
+import { PersonaComponent } from './personas/persona/persona.component';
+import { FormularioComponent } from './personas/formulario/formulario.component';
+//import { AppRoutingModule } from './app-routing.module'; // Older versions of Angular
+import { PersonasComponent } from './personas/personas.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, PersonaComponent, CommonModule, FormularioComponent],
+  imports: [
+    RouterOutlet,
+    PersonaComponent,
+    CommonModule,
+    FormularioComponent,
+    //AppRoutingModule, // Older versions of Angular
+    PersonasComponent,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
-export class AppComponent implements OnInit{
+export class AppComponent {
   titulo = 'Listado de Personas';
-  personas:Persona[] = [];
-
-  constructor(private personasService: PersonasService){}
-
-  ngOnInit(): void {
-    this.personas = this.personasService.personas;
-  }
 }
