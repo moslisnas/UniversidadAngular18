@@ -8,7 +8,7 @@ The course content is older than version 18 of Angular (the course use Angular 1
 
 ## mi-primera-app
 
-First phase: this project contains 25 lessons of the course with the most basics concepts of the creation of an Angular project where the last concept is Two-way binding.
+First phase: this project contains 25 lessons of the course with the most basics concepts of the creation of an Angular project where the last concept is Two-way binding (ngModel).
 
 Second phase: this phase add 2 lessons with the basic concepts of the directive ngIf (@if and @else) of an Angular project. 
 
@@ -29,4 +29,4 @@ Third phase: this phase add 4 lessons with the concept of services and communica
 Fourth phase: this phase add 1 lesson with custom CSS
 
 ## presupuesto-app
-First phase: this project contains several exercise lessons of the course which review the previous concepts: 
+First phase: this project contains several exercise lessons of the course which review the previous concepts: interpolation, propertyBinding, eventBinding, two-way binding (ngModel), ngFor (@for), @Input, @Output, pipes, ngClass, ngSubmit and local reference.
