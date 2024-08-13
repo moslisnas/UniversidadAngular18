@@ -4,7 +4,7 @@ Projects with Angular version 18.0.6.
 
 This project contains all the projects generated from the course [Universidad Angular - De Cero a Experto en Angular!](https://www.udemy.com/course/angular-de-cero-a-experto-angular-2-framework-javascript-html-css/).
 
-The course content is older than version 18 of Angular (the course use Angular 11), so we adapt the project making all commands with Angular CLI of the 18 version.
+The course content is older than version 18 of Angular (the course use Angular 11), so we adapt the project making all commands with Angular CLI of the 18 version and its new functionality like @directive (@if, @else, @for).
 
 ## Theory concept projects
 
@@ -24,7 +24,9 @@ The course content is older than version 18 of Angular (the course use Angular 1
 
 <b>Fourth phase:</b> this phase add 1 lesson with custom CSS.
 
-<b>Fifth phase:</b> this phase add 9 lessons with the concept and use of routings: <router-outlet> Router, navigate, [routerLink], [queryParams] and children routes.
+<b>Fifth phase:</b> this phase add 9 lessons with the concept and use of routings: RouterOutlet, Router, navigate(), [routerLink], [queryParams] and children routes.
+
+<b>Sixth phase:</b> this phase add add 5 lessons with the concept and use of HTTP requests and responses to communicate app with an external database: HttpClient (get, post, put, delete and subcribe).
 
 ## Exercise projects
 
