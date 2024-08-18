@@ -6,6 +6,8 @@ import { LoggingService } from './LoggingService.service';
 import { PersonasService } from './personas.service';
 import { DataServices } from './data.services';
 import { provideHttpClient } from '@angular/common/http';
+import { LoginService } from './login/login.service';
+import { LoginGuardian } from './login/login-guardian.service';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -15,5 +17,7 @@ export const appConfig: ApplicationConfig = {
     LoggingService,
     PersonasService,
     DataServices,
+    LoginService,
+    LoginGuardian,
   ],
 };
