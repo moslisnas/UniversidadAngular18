@@ -26,7 +26,11 @@ The course content is older than version 18 of Angular (the course use Angular 1
 
 <b>Fifth phase:</b> this phase add 9 lessons with the concept and use of routings: RouterOutlet, Router, navigate(), [routerLink], [queryParams] and children routes.
 
-<b>Sixth phase:</b> this phase add add 5 lessons with the concept and use of HTTP requests and responses to communicate app with an external database: HttpClient (get, post, put, delete and subcribe).
+<b>Sixth phase:</b> this phase add 5 lessons with the concept and use of HTTP requests and responses to communicate app with an external database: HttpClient (get, post, put, delete and subcribe).
+
+<b>Seventh phase:</b> this phase add 6 lessons with the concept and use of a loginService, this service let us to login to the application database service (authentication) and this service return us a token (authorization) to perform operations whith the database. Finally there is the content of the lesson of guardians (CanActivate).
+
+<b>Eighth phase:</b> this phase add 2 lessons with the configuration to publish the app in a production enviroment.
 
 ## Exercise projects
 
