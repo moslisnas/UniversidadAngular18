@@ -43,3 +43,7 @@ The course content is older than version 18 of Angular (the course use Angular 1
 ### <u>presupuesto-app</u>
 
 This project contains several exercise lessons of the course which review the previous concepts: interpolation, propertyBinding, eventBinding, two-way binding (ngModel), ngFor (@for), @Input, @Output, pipes, ngClass, ngSubmit and local reference.
+
+### <u>control-clientes</u>
+
+This project contains an overview exercise of all the previous lessons.
