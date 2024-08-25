@@ -1,0 +1,6 @@
+# Ignoring files in current directory(`src/environments`) to not occasionally commit production environment
+environment.development.ts
+environment.ts
+
+# But not example environment, so that developer could copy and fill it on his machine
+!environment.example.ts
