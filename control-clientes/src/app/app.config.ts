@@ -14,8 +14,9 @@ import { FlashMessagesModule } from 'angular2-flash-messages';*/
 
 import { routes } from './app.routes';
 import { environment } from '../environments/environment';
-import { ClienteServicio } from './servicios/cliente.service';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { ClienteServicio } from './servicios/cliente.service';
+import { AlertMessagesService } from 'jjwins-angular-alert-messages';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -31,5 +32,6 @@ export const appConfig: ApplicationConfig = {
     AngularFirestore,
     ClienteServicio,
     //FlashMessagesModule.forRoot(),
+    AlertMessagesService,
   ],
 };
