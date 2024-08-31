@@ -8,7 +8,13 @@ import { AlertMessagesModule } from 'jjwins-angular-alert-messages';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CabeceroComponent, PiePaginaComponent, FormsModule, AlertMessagesModule],
+  imports: [
+    RouterOutlet,
+    CabeceroComponent,
+    PiePaginaComponent,
+    FormsModule,
+    AlertMessagesModule,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

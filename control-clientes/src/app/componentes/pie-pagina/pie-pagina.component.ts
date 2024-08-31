@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './pie-pagina.component.html',
-  styleUrl: './pie-pagina.component.css'
+  styleUrl: './pie-pagina.component.css',
 })
-export class PiePaginaComponent {
-
-}
+export class PiePaginaComponent {}

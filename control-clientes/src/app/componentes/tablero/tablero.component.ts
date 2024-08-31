@@ -6,8 +6,6 @@ import { ClientesComponent } from '../clientes/clientes.component';
   standalone: true,
   imports: [ClientesComponent],
   templateUrl: './tablero.component.html',
-  styleUrl: './tablero.component.css'
+  styleUrl: './tablero.component.css',
 })
-export class TableroComponent {
-
-}
+export class TableroComponent {}
